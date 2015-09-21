@@ -1,0 +1,5 @@
+[package]
+name = "apply"
+version = "1.0.0"
+authors = ["George Burton <burtonageo@gmail.com>"]
+description = "A tiny library for chaining free functions into method call chains."
