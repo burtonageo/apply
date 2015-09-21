@@ -28,3 +28,11 @@ fn test_it_works() {
 
     assert_eq!(x, 6);
 }
+
+#[test]
+fn test_apply_mut_works() {
+    fn f(i: &mut i32) {*i += 1;}
+    let mut x = Some(1);
+    x.as_mut().unwrap().apply_mut(f);
+    assert_eq!(x.unwrap(), 2);
+}
