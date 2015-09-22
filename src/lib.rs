@@ -21,6 +21,6 @@ pub trait Apply<Res> {
     }
 }
 
-impl<T, Res> Apply<Res> for T {
+impl<T: ?Sized, Res> Apply<Res> for T {
     // use default definitions...
 }
