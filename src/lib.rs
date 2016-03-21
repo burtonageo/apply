@@ -1,3 +1,4 @@
+#![no_std]
 #![deny(missing_docs)]
 
 //! A tiny library for chaining free functions into method call chains.
