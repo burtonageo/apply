@@ -1,6 +1,6 @@
 [package]
 name = "apply"
-version = "0.2.1"
+version = "0.2.2"
 authors = ["George Burton <burtonageo@gmail.com>"]
 description = "A tiny library for chaining free functions into method call chains."
 readme = "./Readme.md"
