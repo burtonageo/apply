@@ -3,6 +3,14 @@
 
 //! A tiny library for chaining free functions into method call chains.
 
+#[cfg(test)]
+#[macro_use]
+extern crate std;
+
+mod also;
+
+pub use also::Also;
+
 /// Represents a type which can have functions applied to it (implemented
 /// by default for all types).
 pub trait Apply<Res> {
